@@ -11,7 +11,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            style={{ marginBottom: '1.5rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(0,210,255,0.1)', border: '1px solid rgba(0,210,255,0.2)', padding: '0.5rem 1rem', borderRadius: '20px', color: 'var(--accent-blue)', fontWeight: 500, fontSize: '0.875rem' }}
+            style={{ marginBottom: '1.5rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', padding: '0.5rem 1rem', borderRadius: '4px', color: 'var(--text-primary)', fontWeight: 500, fontSize: '0.875rem' }}
           >
             <Code size={16} />
             Built for Adobe Fund for Design

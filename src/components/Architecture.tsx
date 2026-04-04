@@ -6,7 +6,7 @@ export default function Architecture() {
     { name: 'Data Agent', icon: <Server />, desc: 'Fetches and normalizes live records via MCP.', color: 'var(--accent-blue)' },
     { name: 'Content Agent', icon: <PenTool />, desc: 'Writes contextually relevant copy using RAG.', color: 'var(--accent-purple)' },
     { name: 'Design Agent', icon: <LayoutDashboard />, desc: 'Applies visual hierarchy using Express Sandbox API.', color: 'var(--accent-cyan)' },
-    { name: 'Performance Agent', icon: <Activity />, desc: 'Feeds outcomes into the Content Intelligence Graph.', color: '#ff003c' }
+    { name: 'Performance Agent', icon: <Activity />, desc: 'Feeds outcomes into the Content Intelligence Graph.', color: 'var(--text-primary)' }
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function Architecture() {
                 </motion.div>
               ))}
             </div>
-            <div style={{ marginTop: '2rem', width: '100%', height: '2px', background: 'linear-gradient(90deg, transparent, var(--accent-blue), var(--accent-purple), transparent)' }}></div>
+            <div style={{ marginTop: '2rem', width: '100%', height: '1px', background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent)' }}></div>
             <p style={{ fontFamily: 'monospace', color: 'var(--accent-cyan)', marginTop: '2rem', fontWeight: 600 }}>
               Result: Fully Designed Express Canvas
             </p>
